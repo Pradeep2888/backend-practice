@@ -1,0 +1,18 @@
+Autentication- it is the process of identifying/verifuying *who the user is*
+
+Authorisation-it is the process of verifying *what the user has access to*
+
+
+Authentication
+            1.Signup/Register
+               a.email/username & password
+                  asign token from json web token
+               b.store in the database
+            2.Login
+                 a.email & password
+                 b.check in our database->if it's matching any of out our recodes ? login successful : login faile
+
+
+
+For token we use:JWT (json web token)
+For Password protection we use bcrypt

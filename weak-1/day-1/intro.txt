@@ -1,0 +1,21 @@
+JS --> meant to only run in the browser -> v8 engine (made by google)
+Backend --> learn another language,JAVA or Phython or PHP
+
+Ryan --> make js otside the browsr as well
+        Node --> environment to make JS run outside the browser
+
+             
+        * These are trhe environment hwhich helps to run javascript outsidethe browser
+               Node- [  version-8 engine + more things to access our compter read or wrihgt file ,acess cpu  ]
+               Deno -(made by Ryan)
+               Bun.sh-(mare faster than Node and Deno realeased in july)
+
+REPL -Read, Eval(Evaluating), Print, Loop
+
+
+Import Export
+
+1. ex/import -> local files
+2. ex/import -> online/loibrary
+3.import -> inbuilt Node "more things"
+            //os-operating system

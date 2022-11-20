@@ -1,0 +1,23 @@
+DNS-domain name system
+
+Middlewre function -> which has access to rwquest object ,response object and next()
+
+callback function -> any function that is passed as an argument to other function is called as callback function
+
+types of middleware
+1)custom Middlewre-timeLoger & urlLoger
+2)inbuilt Middlewre->express has inbuilt middleware->express.json() or express.text() or express.Routes() ,Router
+3)community Middleware ->cors middleware,compression,multer
+
+
+CORS -> cross origin sharing policy
+
+CROS Policy -> we allow all origin request or limitet origin request 
+
+for all
+app.use(cors())
+
+for limited
+-> app.use(cors({
+    origin: 'http://example.com'
+}))

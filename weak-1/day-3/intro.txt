@@ -1,0 +1,4 @@
+Express -> make things easier for us
+MERN
+
+Express -> built on top of HHTTp module of node

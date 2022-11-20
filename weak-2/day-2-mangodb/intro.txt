@@ -1,0 +1,49 @@
+What ? - a dedicated s/w ->store/retrieveing data
+
+Why ? -
+1. Create/store data --> in some file/db
+2. Read
+3.Update
+4.Delete
+
+db.json->
+CRUD+more thing
+
+Diffrent types of Data Base
+-SQL ->Structure Quary Language ->data store in => Row and column form
+-NOSQL -> NO - SQL => mongoDb =>data store in document or in the form of object->and group of documents is called->collection ->group of collection is called database
+
+
+see all database - show all dbs    (dbs-> database)
+
+use a particular database->use dbname
+if dbs not there it will create it
+
+to see collection - show collection
+to delete any collection-  .drop()
+
+to creatye collection->  db.createCollection("collection-name")
+
+access a collection - db.collection-name.
+
+
+CRUD db
+    Read -> db.name.find()
+            for specific document -> db.name.find({name:"Sonu"}) or .find({key:value})
+            returns first matching document->db.name.findOne({key:value})
+            returns all matching document in JSON formate ->db.name.findOne.pretty()     
+    
+    Create -> .insertMany() - insert 1/ or many documents
+              .insertOne()
+
+     Update-> .updateOne({creteria/target},{creteria/target}) - update the first document which is matching the creteria
+              .updateMany({creteria/target})- update all the document which match the creteria
+
+             atomic operators\\ $set $inc
+    
+    Delete -> .deleteOne({target})
+            .deleteMany({target})
+
+
+            JSON -> BSON
+            BSON-> JSON + binary

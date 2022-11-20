@@ -1,0 +1,34 @@
+http-hyper text transfer protocol
+
+
+1st time -> 3 way to handshake
+
+client -> sends a signal i want to comunicate
+          acknowledge the signal/request <- server ->
+client -> communicating the 
+
+
+https =http+s ->secure ->
+
+Mbps-Mbps
+b-bits
+B-bytes
+
+1 byte =8 bits
+
+data package/data chunks
+5GB -> chunks get created automaticaly based on the bandwidth
+    ->chunk our response in our code
+
+
+
+  //some api
+http verbs/http methods ->
+GET->to get the data from the server
+POST->posting/sending/adding to the server
+PUT->add a new thing
+PATCH->modifying only that particular thing
+DELETE->delete that particular data
+
+  //headers
+        ->gives more/additional information about the request or the response
